@@ -27,7 +27,7 @@ def banner():
 
 class Email_Bomber:
     count = 0
-    
+   
     # Initializing method
     def __init__(self):
         try:
@@ -59,6 +59,7 @@ class Email_Bomber:
         except Exception as e:
             print(f'ERROR: {e}')
 
+            
             
     # Setting up the email
     def email(self):
@@ -104,7 +105,8 @@ class Email_Bomber:
         except Exception as e:
             print(f'ERROR: {e}')
             
-                     
+                 
+                
     # Sending the email
     def send(self):
         try:
@@ -114,6 +116,7 @@ class Email_Bomber:
         except Exception as e:
             print(f'ERROR: {e}')
 
+            
         
     # Function to perfrom attack for the range of email amount provided
     def attack(self):
