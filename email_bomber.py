@@ -127,7 +127,8 @@ class Email_Bomber:
         print(bcolors.RED + '\n+[+[+[ Attack finished ]+]+]+')
         sys.exit(0)
 
-
+        
+# Creating an instance to perfrom the methods upon on it
 if __name__=='__main__':
     banner()
     bomb = Email_Bomber()
