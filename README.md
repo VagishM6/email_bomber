@@ -1,7 +1,8 @@
 # email_bomber
 
 ## Description
-This python script is designed to use the smtp protocol to login with the user credentials, and then send emails with a specified amount, and spams the target's account.
+This python script, designed to send spammer emails.
+this script uses the smtp protocol to login with the user credentials, and then send emails with a specified amount, and spams the target's account.
 
 ## Extra Features
 1. The user can provide a personal server. 
