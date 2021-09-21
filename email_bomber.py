@@ -23,7 +23,7 @@ ___________              .__.__    __________              ___.
 ''')
 
 
-
+# class for the email bomber
 class Email_Bomber:
     count = 0
    
