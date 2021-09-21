@@ -7,7 +7,8 @@ class bcolors:
     YELLOW = '\033[93m'
     RED = '\033[91m'
 
-
+    
+# banner design function of the exploit
 def banner():
     print(bcolors.GREEN + '+[+[+[ Email-Bomber v1.0 ]+]+]+')
     print(bcolors.GREEN + '+[+[+[ made with codes ]+]+]+')
